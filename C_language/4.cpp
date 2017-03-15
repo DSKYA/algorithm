@@ -1,14 +1,19 @@
-#include "math.h"
-#include "stdio.h"
+//输入某年某月某日，判断这一天是这一年的第几天？
+//
+#include <stdio.h>
 int main()
 {
-    long int i,x,y,z;
-    for (i=1;i<100000;i++)
-    {
-        x=sqrt(i+100); /*x为加上100后开方后的结果*/
-        y=sqrt(i+268); /*y为再加上168后开方后的结果*/
-        if(x*x==i+100&&y*y==i+268) /*如果一个数的平方根的平方等于该数，这说明此数是完全平方数*/
-            printf("\n%ld\n",i);
-    }
+    int day, month, year;
+    int monthday[12] = {31,28,31,30,31,30,31,31,30,31,30,31};
+    printf("enter by day month year!\n");
+    scanf("%d %d %d",&day,&month,&year);
+    bool isRunnian = false;
+    if(year%400 == 0 || year%4 == 0 && year%100 != 0)isRunnian = true;
+    int sum =0;
+    for(int i = 0; i < month - 1; i++)
+        sum += monthday[i];
+    if(isRunnian)sum += day + 1;
+    else sum += day;
+    printf("%d",sum);
     return 0;
 }

@@ -123,32 +123,32 @@ C_language/fast:
 	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/build
 .PHONY : C_language/fast
 
-4.o: 4.cpp.o
+6.o: 6.cpp.o
 
-.PHONY : 4.o
+.PHONY : 6.o
 
 # target to build an object file
-4.cpp.o:
-	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/4.cpp.o
-.PHONY : 4.cpp.o
+6.cpp.o:
+	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/6.cpp.o
+.PHONY : 6.cpp.o
 
-4.i: 4.cpp.i
+6.i: 6.cpp.i
 
-.PHONY : 4.i
+.PHONY : 6.i
 
 # target to preprocess a source file
-4.cpp.i:
-	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/4.cpp.i
-.PHONY : 4.cpp.i
+6.cpp.i:
+	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/6.cpp.i
+.PHONY : 6.cpp.i
 
-4.s: 4.cpp.s
+6.s: 6.cpp.s
 
-.PHONY : 4.s
+.PHONY : 6.s
 
 # target to generate assembly for a file
-4.cpp.s:
-	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/4.cpp.s
-.PHONY : 4.cpp.s
+6.cpp.s:
+	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/6.cpp.s
+.PHONY : 6.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_language"
-	@echo "... 4.o"
-	@echo "... 4.i"
-	@echo "... 4.s"
+	@echo "... 6.o"
+	@echo "... 6.i"
+	@echo "... 6.s"
 .PHONY : help
 
 

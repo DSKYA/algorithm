@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/C_language.dir/4.cpp.o  -o C_language 
+/usr/bin/c++   -g   CMakeFiles/C_language.dir/6.cpp.o  -o C_language 

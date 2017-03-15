@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/cxj/algorithm/C_language/4.cpp
-math.h
-/home/cxj/algorithm/C_language/math.h
+/home/cxj/algorithm/C_language/6.cpp
 stdio.h
 /home/cxj/algorithm/C_language/stdio.h
 
