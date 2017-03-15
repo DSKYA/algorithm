@@ -1,0 +1,4 @@
+/home/cxj/clion-2016.3.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/cxj/algorithm/C_language
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cxj/algorithm/C_language/cmake-build-debug
