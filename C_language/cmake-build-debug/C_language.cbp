@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/cxj/algorithm/C_language/12.cpp">
+		<Unit filename="/home/cxj/algorithm/C_language/kmp.cpp">
 			<Option target="C_language"/>
 		</Unit>
 		<Unit filename="/home/cxj/algorithm/C_language/CMakeLists.txt">

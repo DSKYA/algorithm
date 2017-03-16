@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/C_language.dir/12.cpp.o  -o C_language 
+/usr/bin/c++   -g   CMakeFiles/C_language.dir/kmp.cpp.o  -o C_language 

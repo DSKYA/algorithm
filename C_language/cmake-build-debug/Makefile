@@ -123,32 +123,32 @@ C_language/fast:
 	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/build
 .PHONY : C_language/fast
 
-12.o: 12.cpp.o
+kmp.o: kmp.cpp.o
 
-.PHONY : 12.o
+.PHONY : kmp.o
 
 # target to build an object file
-12.cpp.o:
-	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/12.cpp.o
-.PHONY : 12.cpp.o
+kmp.cpp.o:
+	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/kmp.cpp.o
+.PHONY : kmp.cpp.o
 
-12.i: 12.cpp.i
+kmp.i: kmp.cpp.i
 
-.PHONY : 12.i
+.PHONY : kmp.i
 
 # target to preprocess a source file
-12.cpp.i:
-	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/12.cpp.i
-.PHONY : 12.cpp.i
+kmp.cpp.i:
+	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/kmp.cpp.i
+.PHONY : kmp.cpp.i
 
-12.s: 12.cpp.s
+kmp.s: kmp.cpp.s
 
-.PHONY : 12.s
+.PHONY : kmp.s
 
 # target to generate assembly for a file
-12.cpp.s:
-	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/12.cpp.s
-.PHONY : 12.cpp.s
+kmp.cpp.s:
+	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/kmp.cpp.s
+.PHONY : kmp.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_language"
-	@echo "... 12.o"
-	@echo "... 12.i"
-	@echo "... 12.s"
+	@echo "... kmp.o"
+	@echo "... kmp.i"
+	@echo "... kmp.s"
 .PHONY : help
 
 
