@@ -3,5 +3,5 @@ project(C_language)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES kmp.cpp)
+set(SOURCE_FILES 14.cpp)
 add_executable(C_language ${SOURCE_FILES})

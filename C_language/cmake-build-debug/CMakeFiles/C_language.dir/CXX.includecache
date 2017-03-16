@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/cxj/algorithm/C_language/kmp.cpp
-iostream
--
-istream
--
-string
--
+/home/cxj/algorithm/C_language/14.cpp
+stdio.h
+/home/cxj/algorithm/C_language/stdio.h
+string.h
+/home/cxj/algorithm/C_language/string.h
 
