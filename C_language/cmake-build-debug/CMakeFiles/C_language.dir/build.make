@@ -57,38 +57,38 @@ include CMakeFiles/C_language.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C_language.dir/flags.make
 
-CMakeFiles/C_language.dir/6.cpp.o: CMakeFiles/C_language.dir/flags.make
-CMakeFiles/C_language.dir/6.cpp.o: ../6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cxj/algorithm/C_language/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C_language.dir/6.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_language.dir/6.cpp.o -c /home/cxj/algorithm/C_language/6.cpp
+CMakeFiles/C_language.dir/7.cpp.o: CMakeFiles/C_language.dir/flags.make
+CMakeFiles/C_language.dir/7.cpp.o: ../7.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cxj/algorithm/C_language/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C_language.dir/7.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_language.dir/7.cpp.o -c /home/cxj/algorithm/C_language/7.cpp
 
-CMakeFiles/C_language.dir/6.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_language.dir/6.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cxj/algorithm/C_language/6.cpp > CMakeFiles/C_language.dir/6.cpp.i
+CMakeFiles/C_language.dir/7.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_language.dir/7.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cxj/algorithm/C_language/7.cpp > CMakeFiles/C_language.dir/7.cpp.i
 
-CMakeFiles/C_language.dir/6.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_language.dir/6.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cxj/algorithm/C_language/6.cpp -o CMakeFiles/C_language.dir/6.cpp.s
+CMakeFiles/C_language.dir/7.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_language.dir/7.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cxj/algorithm/C_language/7.cpp -o CMakeFiles/C_language.dir/7.cpp.s
 
-CMakeFiles/C_language.dir/6.cpp.o.requires:
+CMakeFiles/C_language.dir/7.cpp.o.requires:
 
-.PHONY : CMakeFiles/C_language.dir/6.cpp.o.requires
+.PHONY : CMakeFiles/C_language.dir/7.cpp.o.requires
 
-CMakeFiles/C_language.dir/6.cpp.o.provides: CMakeFiles/C_language.dir/6.cpp.o.requires
-	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/6.cpp.o.provides.build
-.PHONY : CMakeFiles/C_language.dir/6.cpp.o.provides
+CMakeFiles/C_language.dir/7.cpp.o.provides: CMakeFiles/C_language.dir/7.cpp.o.requires
+	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/7.cpp.o.provides.build
+.PHONY : CMakeFiles/C_language.dir/7.cpp.o.provides
 
-CMakeFiles/C_language.dir/6.cpp.o.provides.build: CMakeFiles/C_language.dir/6.cpp.o
+CMakeFiles/C_language.dir/7.cpp.o.provides.build: CMakeFiles/C_language.dir/7.cpp.o
 
 
 # Object files for target C_language
 C_language_OBJECTS = \
-"CMakeFiles/C_language.dir/6.cpp.o"
+"CMakeFiles/C_language.dir/7.cpp.o"
 
 # External object files for target C_language
 C_language_EXTERNAL_OBJECTS =
 
-C_language: CMakeFiles/C_language.dir/6.cpp.o
+C_language: CMakeFiles/C_language.dir/7.cpp.o
 C_language: CMakeFiles/C_language.dir/build.make
 C_language: CMakeFiles/C_language.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cxj/algorithm/C_language/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable C_language"
@@ -99,7 +99,7 @@ CMakeFiles/C_language.dir/build: C_language
 
 .PHONY : CMakeFiles/C_language.dir/build
 
-CMakeFiles/C_language.dir/requires: CMakeFiles/C_language.dir/6.cpp.o.requires
+CMakeFiles/C_language.dir/requires: CMakeFiles/C_language.dir/7.cpp.o.requires
 
 .PHONY : CMakeFiles/C_language.dir/requires
 
