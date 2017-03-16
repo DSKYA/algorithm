@@ -11,11 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaf871c2-04d5-4d76-9d4d-db8f77e90202" name="Default" comment="2017/3/16 CCF&#10;">
+    <list default="true" id="aaf871c2-04d5-4d76-9d4d-db8f77e90202" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/C_language" afterPath="$PROJECT_DIR$/cmake-build-debug/C_language" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12.cpp" afterPath="$PROJECT_DIR$/12.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_language.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_language.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_language.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_language.dir/DependInfo.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_language.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_language.dir/build.make" />
@@ -361,7 +359,7 @@
       <updated>1489547262008</updated>
       <workItem from="1489547263369" duration="16906000" />
       <workItem from="1489594195975" duration="3693000" />
-      <workItem from="1489631247942" duration="17090000" />
+      <workItem from="1489631247942" duration="17101000" />
     </task>
     <task id="LOCAL-00001" summary="3月16日CCF练习">
       <created>1489594270397</created>
@@ -391,11 +389,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489652329623</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2017/3/16 CCF&#10;">
+      <created>1489658970487</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1489658970487</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37689000" />
+    <option name="totallyTimeSpent" value="37700000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
