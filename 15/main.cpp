@@ -15,9 +15,8 @@ int main()
     int n,m;
     scanf("%d %d",&n,&m);
     int top = 0;
-    for(int i = 1; i <= n; i++)
-    {
-        scanf("%d %d %d %d",&stack[top].x1,&stack[top].y1,&stack[top].x2,&stack[top].y2);
+    for(int i = 1; i <= n; i++) {
+        scanf("%d %d %d %d", &stack[top].x1, &stack[top].y1, &stack[top].x2, &stack[top].y2);
         stack[top].seq = i;
         top++;
     }
@@ -30,7 +29,7 @@ int main()
         while(i >= 0)
         {
             if(stack[i].seq)
-                if(stack[i].x1 < x && x < stack[i].x2 && stack[i].y1 < y && stack[i].y2 > y){has_get = true;break;}
+                if(stack[i].x1 <= x && x <= stack[i].x2 && stack[i].y1 <= y && stack[i].y2 >= y){has_get = true;break;}
             i--;
         }
         if(has_get)
