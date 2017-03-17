@@ -123,33 +123,6 @@ C_language/fast:
 	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/build
 .PHONY : C_language/fast
 
-14.o: 14.cpp.o
-
-.PHONY : 14.o
-
-# target to build an object file
-14.cpp.o:
-	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/14.cpp.o
-.PHONY : 14.cpp.o
-
-14.i: 14.cpp.i
-
-.PHONY : 14.i
-
-# target to preprocess a source file
-14.cpp.i:
-	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/14.cpp.i
-.PHONY : 14.cpp.i
-
-14.s: 14.cpp.s
-
-.PHONY : 14.s
-
-# target to generate assembly for a file
-14.cpp.s:
-	$(MAKE) -f CMakeFiles/C_language.dir/build.make CMakeFiles/C_language.dir/14.cpp.s
-.PHONY : 14.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +132,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_language"
-	@echo "... 14.o"
-	@echo "... 14.i"
-	@echo "... 14.s"
 .PHONY : help
 
 
