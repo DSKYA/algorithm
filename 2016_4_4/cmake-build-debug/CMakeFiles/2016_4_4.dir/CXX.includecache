@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cxj/algorithm/2016_4_4/main.cpp
+iostream
+-
+stdio.h
+/home/cxj/algorithm/2016_4_4/stdio.h
+
