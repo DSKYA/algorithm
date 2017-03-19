@@ -11,59 +11,18 @@ int main()
     long long sum = 0;
     long long C_number[1005][1005] = {0};
     int n;
-    //bool hasNode[600];
     scanf("%d",&n);
-   // printf("\n%d\n",n);
     arry[0] = 1;
-    //for (int i = 1; i <= (n - 1)/2; i++) {
-        /*
-        sum = 1;
-        for(int j = n - 1; j >= n - i; j--)hasNode[j] = false;
-        int j = 2;
-        while(j <= i)
-        {
-            bool flg = false;
-            if(sum % j == 0)
-            {
-                sum = sum / j;
-                j++;
-                flg = true;
-            }
-            for(int k = n - 1;!flg && k >= n - i; k--)
-            {
-                if(!hasNode[k] && ((sum * k) % j) == 0)
-                {
-                    sum = sum * k / j;
-                    sum = sum % MOD;
-                    hasNode[k] = true;
-                    j++;
-                    flg = true;
-                    break;
-                }
-            }
-            if(!flg)
-            {
-                int k = n - 1;
-                while(k > n - i && hasNode[k])k--;
-                sum = sum * k;
-                hasNode[k] = true;
-            }
-        }
-        for(int k = n - 1; k >= n - i; k--)
-        {
-            if(!hasNode[k])
-            {
-                sum = sum * k;
-                sum = sum % MOD;
-            }
-        }
-        arry[i] = sum;
-         */
-    //}
+/*
+c(i,1)赋值1 和 c(i,i)赋值1
+*/
         for(int i = 1; i <= n; i++) {
             C_number[i][1] = i;
             C_number[i][i] = 1;
         }
+/*
+计算整个组合表
+*/
         for(int i = 2; i < n; i++)
         {
             for(int j = 2; j < i; j++)
@@ -77,20 +36,17 @@ int main()
                         C_number[i][j] = C_number[i][j] % MOD;
                     }
                 }
-                //printf("%d %d - %d\n",i,j,C_number[i][j]);
             }
         }
-        //printf("%d %lld\n",i,arry[i]);
+/*
+组后的求和公式
+*/
     sum = 0;
     for(int i = 2; i <= n - 2; i++)
     {
-        //if(i <= (n - 1)/2)sum += arry[i] * (i - 1) * (n - 1 - i);
-        //else sum += arry[n - 1 - i] * (i - 1) * (n - 1 -i);
         sum += C_number[n - 1][i] * (i - 1) * (n - 1 - i);
         sum = sum % MOD;
-  //      printf("%lld ",sum);
     }
- //   printf("\n");
     printf("%lld",sum);
     return 0;
 }
