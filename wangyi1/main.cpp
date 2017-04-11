@@ -1,32 +1,46 @@
-#include <iostream>
-#include <algorithm>
 #include <string.h>
-using namespace std;
+#include <stdio.h>
+#define N 151
+#define MAX_LEN 10
+void SortString(char str[][MAX_LEN], int n);
 
-int main() {
-    int n,m;
-    scanf("%d %d\n",&n,&m);
-    int sum = 0;
-    char a[2505];
-    char b[2505];
-    fgets(a,2505,stdin);
-    fgets(b,2505,stdin);
-    bool flg[5000] = {false};
-    char *p;
-    char *tmp;
-    const char * split = " ";
-    const char * split2 = "\n";
-    p = strtok (a,split);
-    while(p!=NULL) {
-        if(p[strlen(p) - 1] == '\n')p[strlen(p) - 1] = '\0';
-        if(strstr(b,p)){
-            if(!flg[strstr(b,p) - b + 1]){
-                sum += strlen(p) * strlen(p);
-                flg[strstr(b,p) - b + 1] = true;
+int main()
+{
+    int i, n;
+    char name[N][MAX_LEN];
+    printf("How many countries?");
+    scanf("%d",&n);
+    getchar();
+    printf("Input their names\n");
+
+    for(i=0;i<n;i++)
+        gets(name[i]);
+
+    SortString( name, n);
+    printf("Sorted results:\n");
+    for(i=0;i<n;i++)
+    {
+        puts(name[i]);
+    }
+    return 0;
+
+}
+
+void SortString(char str[][MAX_LEN], int n)
+{
+    int i,j;
+    char temp[MAX_LEN];
+
+    for(i=0;i<n;i++)
+    {
+        for(j=i+1;j<n;j++)
+        {
+            if(strcmp(str[j],str[i])<0)
+            {
+                strcpy(temp,str[i]);
+                strcpy(str[i],str[j]);
+                strcpy(str[j],temp);
             }
         }
-        p = strtok (NULL,split);
     }
-    printf("%d",sum);
-    return 0;
 }

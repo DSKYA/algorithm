@@ -7,10 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/cxj/algorithm/wangyi1/main.cpp
-iostream
--
-algorithm
--
 string.h
+-
+stdio.h
 -
 
