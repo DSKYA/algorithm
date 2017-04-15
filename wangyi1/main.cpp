@@ -1,46 +1,40 @@
-#include <string.h>
-#include <stdio.h>
-#define N 151
-#define MAX_LEN 10
-void SortString(char str[][MAX_LEN], int n);
-
-int main()
-{
-    int i, n;
-    char name[N][MAX_LEN];
-    printf("How many countries?");
-    scanf("%d",&n);
-    getchar();
-    printf("Input their names\n");
-
-    for(i=0;i<n;i++)
-        gets(name[i]);
-
-    SortString( name, n);
-    printf("Sorted results:\n");
-    for(i=0;i<n;i++)
-    {
-        puts(name[i]);
-    }
-    return 0;
-
-}
-
-void SortString(char str[][MAX_LEN], int n)
+#include<stdio.h>
+int AddDiagonal(int a[10][10], int n)
 {
     int i,j;
-    char temp[MAX_LEN];
-
+    int sum=0;
     for(i=0;i<n;i++)
     {
-        for(j=i+1;j<n;j++)
+        sum=sum+a[i][i];
+        sum=sum+a[i][n-i-1];
+    }
+    return sum;
+}
+
+void InputMatrix(int a[10][10], int n)
+{
+    int i,j;
+    for(i=0;i<n;i++)
+    {
+        for(j=0;j<n;j++)
         {
-            if(strcmp(str[j],str[i])<0)
-            {
-                strcpy(temp,str[i]);
-                strcpy(str[i],str[j]);
-                strcpy(str[j],temp);
-            }
+            scanf("%d",&a[i][j]);
         }
     }
 }
+
+
+int main()
+{
+    int n;
+    int sum;
+    int a[10][10];
+    printf("Input n:");
+    scanf("%d",&n);
+    printf("Input %d*%d matrix:\n",n,n);
+    InputMatrix(a,n);
+    sum=AddDiagonal(a,n);
+    printf("sum = %d\n",sum);
+    return 0;
+}
+
